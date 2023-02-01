@@ -1,11 +1,16 @@
-body {
-  background-color: #ffffff;
+* {
+  box-sizing: border-box;
   font-family: "Roboto", sans-serif;
   font-weight: bold;
+  margin: 0;
+  padding: 0;
+}
+html {
+  font-size: 62.5%;
 }
 .logo {
   cursor: pointer;
-  width: 120px;
+  width: 8rem;
 }
 header {
   color: #111111;
@@ -13,25 +18,29 @@ header {
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
+  margin: 5px;
 }
 .navBar {
   display: flex;
   flex-direction: row;
   align-items: center;
 }
-a {
-  color: black;
-  font-size: 15px;
-  letter-spacing: 1px;
+.linkNav {
   list-style: none;
-  margin-left: 12px;
+  margin-left: 0.8rem;
   text-decoration: none;
+}
+.linkNav:hover {
+  text-decoration: underline;
+}
+li {
+  color: black;
+  font-size: 1.2rem;
 }
 .buttons {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-left: 15px;
 }
 .login {
   background-color: #e60023;
@@ -39,8 +48,9 @@ a {
   border-radius: 24px;
   color: #ffffff;
   cursor: pointer;
-  font-size: 15px;
-  padding: 10px;
+  font-size: 1.1rem;
+  padding: 0.5rem;
+  margin-left: 0.6rem;
 }
 .login:hover {
   background-color: #ad081b;
@@ -51,10 +61,62 @@ a {
   border-radius: 24px;
   color: #111111;
   cursor: pointer;
-  font-size: 15px;
-  padding: 10px;
-  margin-right: 20px;
+  font-size: 1.1rem;
+  padding: 0.5rem;
+  margin-right: 0.5rem;
+  margin-left: 0.4rem;
 }
 .registrer:hover {
   background-color: #e2e2e2;
 }
+
+/* @media (min-width: 600px) {
+  .logo {
+    width: 10rem;
+  }
+  li {
+    font-size: 1.4rem;
+    letter-spacing: 1px;
+  }
+  .linkNav {
+    margin-right: 1.6rem;
+  }
+  .login {
+    font-size: 1.4rem;
+    margin-left: 1rem;
+    padding: 0.9rem;
+  }
+  .registrer {
+    font-size: 1.4rem;
+    margin-left: 0.5rem;
+    padding: 0.9rem;
+  }
+} */
+/* @media (min-width: 800px) {
+  .logo {
+    width: 11.5rem;
+    margin-top: 1rem;
+    margin-left: 1.5rem; 
+  }
+  .navBar{
+    margin-top: 1rem;
+    margin-right: 1rem;
+  }
+  li {
+    font-size: 1.5rem;
+  }
+  .linkNav {
+    margin-right: 2.5rem;
+  }
+  .login {
+    font-size: 1.5rem;
+    padding: 1.2rem 1.3rem 1rem 1.3rem;    
+    letter-spacing: 0.5px;
+  }
+  .registrer {
+    font-size: 1.5rem;
+    padding: 1.2rem 1.3rem 1rem 1.3rem;    
+    letter-spacing: 0.5px;
+    margin-left: 0.8rem;
+  }
+} */

@@ -1,0 +1,26 @@
+.logo {
+  width: 11.5rem;
+  margin-top: 1rem;
+  margin-left: 1.5rem;
+}
+.navBar {
+  margin-top: 1rem;
+  margin-right: 1rem;
+}
+li {
+  font-size: 1.5rem;
+}
+.linkNav {
+  margin-right: 2.5rem;
+}
+.login {
+  font-size: 1.5rem;
+  padding: 1.2rem 1.3rem 1rem 1.3rem;
+  letter-spacing: 0.5px;
+}
+.registrer {
+  font-size: 1.5rem;
+  padding: 1.2rem 1.3rem 1rem 1.3rem;
+  letter-spacing: 0.5px;
+  margin-left: 0.8rem;
+}
