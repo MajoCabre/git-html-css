@@ -1,3 +1,14 @@
+footer {
+  margin-top: 30px;
+  height: 5rem;
+}
+p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5rem;
+}
 .icono {
+  margin: 0;
   width: 2rem;
 }
