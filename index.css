@@ -1,9 +1,19 @@
+* {
+  background-color: #ffffff;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  font-size: 62.5%;
+  margin: 0;
+  padding: 0;
+}
 html {
   font-size: 62.5%;
 }
 .logo {
   cursor: pointer;
   width: 8rem;
+  margin: 0;
 }
 header {
   color: #111111;
@@ -62,54 +72,3 @@ li {
 .registrer:hover {
   background-color: #e2e2e2;
 }
-
-/* @media (min-width: 600px) {
-  .logo {
-    width: 10rem;
-  }
-  li {
-    font-size: 1.4rem;
-    letter-spacing: 1px;
-  }
-  .linkNav {
-    margin-right: 1.6rem;
-  }
-  .login {
-    font-size: 1.4rem;
-    margin-left: 1rem;
-    padding: 0.9rem;
-  }
-  .registrer {
-    font-size: 1.4rem;
-    margin-left: 0.5rem;
-    padding: 0.9rem;
-  }
-} */
-/* @media (min-width: 800px) {
-  .logo {
-    width: 11.5rem;
-    margin-top: 1rem;
-    margin-left: 1.5rem; 
-  }
-  .navBar{
-    margin-top: 1rem;
-    margin-right: 1rem;
-  }
-  li {
-    font-size: 1.5rem;
-  }
-  .linkNav {
-    margin-right: 2.5rem;
-  }
-  .login {
-    font-size: 1.5rem;
-    padding: 1.2rem 1.3rem 1rem 1.3rem;    
-    letter-spacing: 0.5px;
-  }
-  .registrer {
-    font-size: 1.5rem;
-    padding: 1.2rem 1.3rem 1rem 1.3rem;    
-    letter-spacing: 0.5px;
-    margin-left: 0.8rem;
-  }
-} */
