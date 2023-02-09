@@ -22,4 +22,15 @@ li {
 }
 .secondTitle {
   font-size: 4.5rem;
+footer {
+  margin-top: 30px;
+  height: 30px;
+}
+p {
+  align-items: center;
+  font-size: 1.4rem;
+}
+.icono {
+  margin: 0;
+  width: 1.4rem;
 }

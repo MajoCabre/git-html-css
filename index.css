@@ -98,3 +98,22 @@ img {
   justify-content: space-between;
   margin: 2rem 1rem 2rem 1rem;
 }
+footer {
+  background-color: #fffd92;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  height: 30px;
+  position: absolute;
+  width: 100%;
+}
+p {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.2rem;
+}
+.icono {
+  margin: 0;
+  width: 1.2rem;
+}
