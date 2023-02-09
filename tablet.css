@@ -17,4 +17,9 @@ li {
   font-size: 1.4rem;
   margin-left: 0.5rem;
   padding: 0.9rem;
+.firstTitle {
+  font-size: 4.5rem;
+}
+.secondTitle {
+  font-size: 4.5rem;
 }

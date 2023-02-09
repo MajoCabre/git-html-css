@@ -23,4 +23,17 @@ li {
   padding: 1.2rem 1.3rem 1rem 1.3rem;
   letter-spacing: 0.5px;
   margin-left: 0.8rem;
+.firstTitle {
+  font-size: 5rem;
+  margin-top: 10%;
+}
+.secondTitle {
+  font-size: 5rem;
+}
+img {
+  margin-right: 0.5rem;
+  width: 15%;
+}
+.imageContainer {
+  margin: 2rem 1rem 2rem 1rem;
 }

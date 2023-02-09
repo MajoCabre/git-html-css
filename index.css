@@ -71,4 +71,30 @@ li {
 }
 .registrer:hover {
   background-color: #e2e2e2;
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.firstTitle {
+  font-size: 3rem;
+  margin-top: 15%;
+}
+.secondTitle {
+  color: #c28b00;
+  font-size: 2.8rem;
+}
+
+img {
+  border-radius: 20px;
+  margin-right: 1rem;
+  margin-bottom: 1rem;
+  width: 30%;
+}
+.imageContainer {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  justify-content: space-between;
+  margin: 2rem 1rem 2rem 1rem;
 }
